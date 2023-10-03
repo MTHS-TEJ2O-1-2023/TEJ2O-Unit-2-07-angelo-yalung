@@ -19,6 +19,6 @@ input.onButtonPressed(Button.A, function() {
 
 // on "B" button pressed
 input.onButtonPressed(Button.B, function () {
-    numberOfCookies = 0
-    basic.showNumber(numberOfCookies)
+  numberOfCookies = 0
+  basic.showNumber(numberOfCookies)
 })
