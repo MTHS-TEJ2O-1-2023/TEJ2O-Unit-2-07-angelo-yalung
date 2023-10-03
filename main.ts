@@ -1,7 +1,7 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
  * Created by: Angelo Yalung
- * Created on: Sep 2023
+ * Created on: Oct 2023
  * This program turns the microbit into Cookie Clicker
 */
 
@@ -18,7 +18,7 @@ input.onButtonPressed(Button.A, function() {
 })
 
 // on "B" button pressed
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.B, function() {
   numberOfCookies = 0
   basic.showNumber(numberOfCookies)
 })
