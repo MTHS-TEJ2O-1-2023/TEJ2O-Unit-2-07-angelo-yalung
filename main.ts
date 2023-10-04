@@ -12,13 +12,13 @@ let numberOfCookies: number
 numberOfCookies = 0
 
 // on "A" button pressed
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   numberOfCookies = numberOfCookies + 1
   basic.showNumber(numberOfCookies)
 })
 
 // on "B" button pressed
-input.onButtonPressed(Button.B, function() {
+input.onButtonPressed(Button.B, function () {
   numberOfCookies = 0
   basic.showNumber(numberOfCookies)
 })
