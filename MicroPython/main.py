@@ -8,7 +8,7 @@ from microbit import *
 
 
 Number_Of_Cookies = 0
-
+while True:()
 input.onButtonPressed(button_a)
 Number_Of_Cookies = Number_Of_Cookies + 1
 display.show(Number_Of_Cookies)
