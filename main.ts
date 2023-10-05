@@ -21,4 +21,8 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
   numberOfCookies = 0
   basic.showNumber(numberOfCookies)
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 83b8d7fe9a7ff60456487fd94ebc4132d4ab9dd9
